@@ -7,6 +7,14 @@ export const metadata = {
   description: "A simple prompter for your presentations",
 };
 
+function useImperativeHandle(
+  first,
+  () => {
+    second
+  },
+  [third],
+)
+
 const RootLayout = ({ children }) => {
   return (
     <html lang="en">
